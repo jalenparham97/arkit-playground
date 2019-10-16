@@ -1,4 +1,8 @@
 const a = document.createElement("a")
 if (a.relList.supports("ar")) {
-  console.log(a.relList.supports("ar"))
-} else console.log('does not work')
+  a.setAttribute('rel', 'ar')
+  a.setAttribute('href', 'heart.hsdz')
+  a.innerText = 'arkit button'
+
+  document.querySelector('body').appendChild(a)
+} 
