@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
