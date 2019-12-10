@@ -2,7 +2,7 @@ const body = document.querySelector('body')
 const a = document.createElement("a")
 if (a.relList.supports("ar")) {
   a.setAttribute('ref', 'ar')
-  a.setAttribute('href', 'https://firebasestorage.googleapis.com/v0/b/arkit-playground.appspot.com/o/heart.usdz?alt=media&token=eaae349d-0cc7-4212-ad71-9458eece0e1c')
+  a.setAttribute('href', 'https://firebasestorage.googleapis.com/v0/b/arkit-playground.appspot.com/o/Adam_Uph_Chair_Dining_Arm-4859109.usdz?alt=media&token=39931a69-7aac-4b87-a1bb-dca34bfa81fe')
   a.innerText = 'web ar viewer'
   body.appendChild(a)
 } else {
