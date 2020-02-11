@@ -2,7 +2,7 @@ const body = document.querySelector('body')
 const a = document.createElement("a")
 if (a.relList.supports("ar")) {
   a.setAttribute('ref', 'ar')
-  a.setAttribute('href', 'https://firebasestorage.googleapis.com/v0/b/arkit-playground.appspot.com/o/Adam_Uph_Chair_Dining_Arm-4859109.usdz?alt=media&token=39931a69-7aac-4b87-a1bb-dca34bfa81fe')
+  a.setAttribute('href', 'http://www.westelm.com/netstorage/webar/assets/Austin_Leather_Ottoman-2618069.usdz')
   a.innerText = 'web ar viewer'
   body.appendChild(a)
 } else {
